@@ -1,0 +1,312 @@
+body{
+  font-family: 'Cairo', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1, h2, h3, h4, p{
+  font-weight: 700;
+}
+
+/* Title section */
+
+#title{
+  background-color: #fdfce5;
+}
+
+.title-header{
+  position: relative;
+  bottom: 100px;
+}
+
+.skate-image{
+  width: 80%;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+
+.title-para{
+  text-align: left;
+  padding-top: 50px;
+}
+
+.code{
+  padding-top: 50px;
+  width: 60%;
+}
+
+.title-text{
+  line-height: 2;
+}
+
+.image-text{
+  font-size: 2rem;
+  margin-left: 100px;
+}
+
+/* Navbar */
+
+nav{
+  position: relative;
+  bottom: 80px;
+  margin-bottom: 100px;
+}
+
+.navbar{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.navbar-brand{
+  color: black;
+  font-size: 2.5rem;
+}
+
+.navbar-brand:hover{
+  color: black;
+}
+
+.nav-item{
+  font-size: 1.25rem;
+  padding-right: 50px;
+}
+
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color: #FF4C29;
+}
+
+/* Features */
+
+.container{
+  padding: 4% 0;
+}
+
+.features-heading{
+  color: #93c47d;
+  margin-left: 100px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.list-of-language{
+  width: 125px;
+  margin-left: 60px;
+  border: 2px solid;
+}
+
+.orange-text{
+  background-color: orange;
+}
+
+.text-language{
+  padding-top: 50px;
+}
+
+.feature-text{
+  margin: 0;
+  padding: 2% 0;
+}
+
+.meeting{
+  padding-top: 50px;
+  text-align: left;
+}
+
+.bottom-text{
+  padding-top: 25px;
+  width: 250px;
+}
+
+.language{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 30%;
+}
+
+.java-image{
+  width: 150%;
+}
+
+
+/* Skills */
+
+#skills{
+  background-color: #e06666;
+  color: #fff;
+}
+
+.testimonial-heading{
+  padding-bottom: 50px;
+}
+
+.testimonial-image{
+  padding: 4% 0;
+  width: 40%;
+}
+
+/* Press */
+
+
+#press{
+  background-color: #e06666;
+  padding: 4% 7%;
+}
+
+
+.press-image{
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.section-heading{
+  padding-bottom: 10px;
+}
+
+.pricing-para{
+  padding-bottom: 50px;
+}
+
+.card{
+  margin-bottom: 100px;
+}
+
+.question-button{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.contact-button{
+  font-size: 1.5rem;
+}
+
+
+/* Things */
+
+#things{
+  background-color: #defbc2;
+  color: #f08181;
+}
+
+.blogins{
+  padding-bottom: 300px;
+}
+
+.things-heading{
+  padding: 0 0 100px;
+  text-align: left;
+  font-size: 4.5rem;
+}
+
+.text-image{
+  width: 60%;
+  padding-bottom: 50px;
+}
+
+.blog-text{
+  padding-bottom: 50px;
+}
+
+.turtle{
+  border-radius: 100%;
+  width: 50%;
+}
+
+.flash-div{
+  position: relative;
+  bottom: 200px;
+  padding-bottom: 100px;
+}
+
+.flash{
+  width: 60%;
+}
+
+.turtle-text{
+  padding-top: 50px;
+}
+
+.turtle-website{
+  position: relative;
+  bottom: 200px;
+}
+
+.flash-text{
+  width: 30%;
+  padding-top: 100px;
+}
+
+.website-container{
+  padding-top: 100px;
+}
+
+.web{
+  color: #FF0075;
+}
+
+/* Footer */
+
+
+#footer{
+  padding: 7% 15%;
+}
+
+.copyright{
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+i{
+  padding-right: 20px;
+  color: black;
+}
+
+/* Mobile Adjustment */
+
+@media (max-width: 1000px)
+{
+  .skate-text{
+    padding: 0;
+    margin-left: 100px;
+    padding-top: 100px;
+    width: 50%;
+  }
+
+.question{
+  padding-top: 50px;
+}
+
+  .code{
+    width: 30%;
+  }
+
+  .features-heading{
+    text-align: center;
+    margin: auto;
+  }
+
+  .flash-text{
+    margin: auto;
+  }
+
+  .java-image{
+    padding-top: 50px;
+  }
+
+  .writing-text{
+    padding-bottom: 50px;
+  }
+
+  .things-heading{
+    text-align: center;
+  }
+}
