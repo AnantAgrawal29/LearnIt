@@ -305,6 +305,10 @@ i{
   .writing-text{
     padding-bottom: 50px;
   }
+  
+  .title-para{
+    text-align: center;
+  }
 
   .things-heading{
     text-align: center;
