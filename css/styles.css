@@ -258,16 +258,26 @@ nav{
 
 #footer{
   padding: 7% 15%;
+  color: black
+}
+
+#footer a{
+  color: black;
+  margin-left: 5px;
+  padding:0.5px 10px;
+  font-size: 24px
+}
+
+#footer a:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 100%;
 }
 
 .copyright{
   padding-top: 20px;
   padding-right: 10px;
-}
-
-i{
-  padding-right: 20px;
-  color: black;
 }
 
 /* Mobile Adjustment */
